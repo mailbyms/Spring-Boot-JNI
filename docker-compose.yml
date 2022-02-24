@@ -1,0 +1,8 @@
+version: '2'
+services:
+  adminapi:
+    image: mailbyms/spring-algorithm:0.0.1
+    ports:
+      - 8080:8080
+    environment:
+      TZ: Asia/Shanghai
